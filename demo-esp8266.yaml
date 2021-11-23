@@ -1,6 +1,6 @@
 # These substitutions allow the end user to override certain values
 substitutions:
-  name: "project-template-8266"
+  name: "demo-8266"
 
 esphome:
   name: "${name}"
@@ -11,7 +11,7 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: esphome.project-template
+    name: jesserockz.demo
     version: "1.0"
 
 esp8266:
@@ -28,7 +28,7 @@ ota:
 
 # This should point to the public location of this yaml file.
 dashboard_import:
-  package_import_url: github://esphome/esphome-project-template/project-template-esp8266.yaml@v6
+  package_import_url: github://jesserockz/esphome-demo-project/demo-esp8266.yaml@main
 
 wifi:
   # Set up a wifi access point
@@ -41,3 +41,5 @@ captive_portal:
 
 # Sets up the improv via serial client for Wi-Fi provisioning
 improv_serial:
+
+demo:
