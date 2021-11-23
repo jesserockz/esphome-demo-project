@@ -1,6 +1,6 @@
 # About
 
-Add some information about your project here.
+Here is an ESPHome demo project to showcase the functionalities possible.
 
 # Installation
 
