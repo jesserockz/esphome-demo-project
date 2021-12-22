@@ -13,5 +13,3 @@ jobs:
       files: demo-esp32.yaml,demo-esp8266.yaml
       # CHANGEME: Set the name of your project here:
       name: Demo Project
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
