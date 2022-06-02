@@ -1,6 +1,6 @@
 {
   "name": "Demo Project",
-  "version": "2021.11.1",
+  "version": "2022.5.1",
   "home_assistant_domain": "esphome",
   "new_install_skip_erase": false,
   "builds": [
@@ -8,20 +8,8 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "demo-32/firmware.bin",
-          "offset": 65536
-        },
-        {
-          "path": "demo-32/bootloader_dio_40m.bin",
-          "offset": 4096
-        },
-        {
-          "path": "demo-32/partitions.bin",
-          "offset": 32768
-        },
-        {
-          "path": "demo-32/boot_app0.bin",
-          "offset": 57344
+          "path": "demo-32-esp32/demo-32-esp32.bin",
+          "offset": 0
         }
       ]
     },
@@ -29,7 +17,7 @@
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "demo-8266/firmware.bin",
+          "path": "demo-8266-esp8266/demo-8266-esp8266.bin",
           "offset": 0
         }
       ]
